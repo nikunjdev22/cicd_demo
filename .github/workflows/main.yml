@@ -30,8 +30,8 @@ jobs:
       - run: flutter config --enable-macos-desktop
       - run: flutter doctor -v
 
-      # Checkout gallery code and get packages.
-      - name: Checkout gallery code
+      # Checkout ci cd demo and get packages.
+      - name: Checkout cice demo code
         uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c
       - run: flutter pub get
 
