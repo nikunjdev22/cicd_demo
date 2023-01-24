@@ -38,4 +38,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: assets
-          path: build/app/outputs/flutter-apk/app-debug.apk
+          path: ${{ github.workspace }}/build/app/outputs/flutter-apk/app-debug.apk
